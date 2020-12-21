@@ -27,25 +27,6 @@ if __name__ == '__main__':
     print(cal(input))
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # elif input != index:
 #             for i in range(input):
 #                 length = input-len(num)
