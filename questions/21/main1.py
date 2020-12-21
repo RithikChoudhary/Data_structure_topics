@@ -9,22 +9,22 @@
 # 45
 
 
-def cal(enter):
+def cal(input):
     num = [1,2,4,7,3,1,2,4,7,9]
     
-    if enter <= len(num):
-        return num[enter-1]
+    if input <= len(num):
+        return num[input-1]
     else:    
         for i in num:
-            ind = enter-len(num)
-            if ind <= len(num):
-                return num[ind-1]
+            pos = input-len(num)
+            if pos <= len(num):
+                return num[pos-1]
                 break    
-            enter = ind
+            input = pos
             
 if __name__ == '__main__':
-    enter = int(input("Enter pos = "))
-    print(cal(enter))
+    input = int(input("Enter pos = "))
+    print(cal(input))
     
 
 
@@ -46,9 +46,9 @@ if __name__ == '__main__':
 
 
 
-# elif enter != index:
-#             for i in range(enter):
-#                 length = enter-len(num)
+# elif input != index:
+#             for i in range(input):
+#                 length = input-len(num)
 #                 if len(num) > length:
 #                     return (num[length])
 #                     break
@@ -59,11 +59,11 @@ if __name__ == '__main__':
 
 
 # for index,val in enumerate(num):
-    #     if enter == index:
+    #     if input == index:
     #         return (val)
     #     else:
-    #         for i in range(enter):
-    #             if enter > len(num)-1:
-    #                 getin = enter-len(num)-1
-    #                 if enter <= len(num)-1 or (enter == len(num)-1):
+    #         for i in range(input):
+    #             if input > len(num)-1:
+    #                 getin = input-len(num)-1
+    #                 if input <= len(num)-1 or (input == len(num)-1):
     #                     return num[getin]
