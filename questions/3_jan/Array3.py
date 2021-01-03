@@ -1,3 +1,5 @@
+# Kth smallest element
+
 def kthSmallest(arr, k):
     '''
     arr : given array
