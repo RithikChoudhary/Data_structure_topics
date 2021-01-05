@@ -8,12 +8,14 @@ def union(list1,list2):
         
 
 if __name__ == '__main__':
-    test = input()
+    test = int(input())
     see = []
-    for i in test:
+    while test > 0:
         x,y = input().split()
         list1 = list(map(int,input().strip().split()))
         list2 = list(map(int,input().strip().split()))
         z = union(list1,list2)
         see.append(z)
-    print(see)
+        test-=1
+    for j in see:
+        print(j)
