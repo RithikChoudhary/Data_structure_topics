@@ -47,93 +47,45 @@ if __name__ == '__main__':
 	add(1)
 	print("add(1) -> " ,outputList)
 	# print(outputList)
-
-	
-
-	
 	add(2)
 	print("add(2) -> ",outputList)
 	# print(outputList)
-	
-	
-	
-	
 	add(3)
 	print("add(3) -> ",outputList)
 	# print(outputList
-	
-		
 	add(4)
 	print("add(4) -> ",outputList)
 	# print(outputList)
-
-	
-		
 	undo()
 	print("undo() -> ",outputList)
 	# print(outputList)
-
-		
 	undo()
 	print("undo() -> ",outputList )
 	# print(outputList)
-	
-	
-		
 	redo()
 	print("redo() -> ",outputList)
 	# print(outputList)
-
-	
-	
 	redo()
 	print("redo() -> ",outputList)
 	# print(outputList)
-	
-	
-	
 	remove(3)
 	print("remove(3) -> ",outputList)
 	# print(outputList)
-	
-	
-	
-	
 	remove(1)
 	print("remove(1) -> ",outputList)
 	# print(outputList)
-
-	
-	
-	
 	remove(2)
 	print("remove(2) -> ",outputList)
 	# print(outputList)
-
-	
-	
-	
 	undo()
 	print("undo() -> ",outputList)
 	# print(outputList)
-	
-	
-	
-	
 	undo()
 	print("undo() -> ",outputList)
 	# print(outputList)
-	
-	
-	
-	
 	undo()
 	print("undo() -> ",outputList)
 	# print(outputList)
-	
-	
-	
-	
 	redo()
 	print("redo() -> ",outputList)
 	# print(outputList)
